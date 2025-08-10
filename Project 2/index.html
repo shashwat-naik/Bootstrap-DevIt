@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exStore</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body
+    style="
+      font-family: Lexend, sans-serif;
+      background-color: #f5f4f9;
+      overflow-x: hidden;
+    "
+  >
+    <div
+      class="container-fluid hero-banner"
+      style="
+        background-image: url(./img/herobanner.png);
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div
+          class="container d-flex justify-content-between align-items-center px-5"
+        >
+          <!-- Brand -->
+          <a class="navbar-brand fw-medium text-light" href="#">
+            <span style="color: #3b44f6">ex</span>Store
+          </a>
+
+          <!-- Toggler for small screens -->
+          <button
+            class="navbar-toggler z-1"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="filter: brightness(0) invert(1);"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navigation links (collapsible) -->
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav gap-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-light" style="color: #c9c9c9" href="#"
+                  >Browser Games</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-light" style="color: #c9c9c9" href="#"
+                  >Store</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Buttons -->
+             <div class="d-none d-lg-flex gap-2">
+               <button
+               class="btn"
+               style="background-color: #3b44f6; color: #ffff; border: none"
+               >
+               Sign up
+              </button>
+              <button class="btn" style="color: #ffff; border-color: #fff">
+                Login
+              </button>
+            </div>      
+        </div>
+      </nav>
+
+      <!-- Banner left content -->
+      <div class="container-fluid p-5">
+        <div class="px-5 pt-5">
+          <h1 class="fw-bold text-light">MultiVersus</h1>
+          <p class="text-light py-2">
+            Now officially free to play for all <br />xbox & playstation users.
+          </p>
+          <p class="text-light">
+            Experience the blend from different universe.
+          </p>
+          <button
+            class="btn my-5"
+            style="background-color: #3b44f6; color: #ffff; border: none"
+            type="submit"
+          >
+            Get it now
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second -->
+    <div class="container-fluid p-5 my-5">
+      <div class="px-5 text-center">
+        <h1 class="fw-bold">Why eXStore?</h1>
+        <p class="fw-light mt-4">
+          We are the official Xbox partner in India that <br />
+          provides official video games.
+        </p>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row text-center justify-content-center g-2">
+          <!-- Column 1 -->
+          <div class="col-md-4">
+            <img src="./img/xbox-controllerPur.png" class="mb-3" alt="" />
+            <p class="">5000+ video games <br />available</p>
+          </div>
+          <!-- Column 2 -->
+          <div class="col-md-4">
+            <img src="./img/badge-checkPur.png" class="mb-3" alt="" />
+            <p>Trusted by 100,000+ <br />customers</p>
+          </div>
+          <!-- Column 3 -->
+          <div class="col-md-4">
+            <img src="./img/xboxPur.png" class="mb-3" alt="" />
+            <p>
+              Available for all Xbox <br />
+              consoles
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
